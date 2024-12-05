@@ -1,0 +1,69 @@
+
+.encabezado nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .encabezado nav ul li {
+    margin: 0 20px;
+  }
+  
+  .encabezado nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+  }
+  
+  .slider-container {
+    position: relative;
+    height: 300px;
+  }
+  
+  .slider-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .productos-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .productos-card {
+    width: 200px;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .productos-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .contact-section form input, 
+  .contact-section form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .contact-section form button {
+    padding: 12px;
+    background-color: #F9D6D5;
+    color: white;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  .contact-section form button:hover {
+    background-color: #0056b3;
+  }
+  
